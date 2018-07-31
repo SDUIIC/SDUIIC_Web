@@ -105,7 +105,19 @@ $(function(){
        "images/home-bg-slideshow6.jpg",
         ],  {duration: 2000, fade: 750});
     });
-  })
+  });
+
+  // Activities photos slideshow
+    $(function(){
+        jQuery(document).ready(function() {
+            $('#activity-photo').backstretch([
+                "photos/activities/activity01.jpg",
+                "photos/activities/activity02.jpg",
+                "photos/activities/activity03.jpg",
+                "photos/activities/activity04.jpg",
+            ],  {duration: 1000, fade: 750});
+        });
+    });
 
 });
 
