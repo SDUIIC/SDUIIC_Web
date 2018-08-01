@@ -103,6 +103,7 @@ $(function(){
        "images/home-bg-slideshow4.jpg",
        "images/home-bg-slideshow5.jpg",
        "images/home-bg-slideshow6.jpg",
+       "images/home-bg-slideshow7.jpg",
         ],  {duration: 2000, fade: 750});
     });
   });
@@ -114,8 +115,8 @@ $(function(){
                 "photos/activities/activity01.jpg",
                 "photos/activities/activity02.jpg",
                 "photos/activities/activity03.jpg",
-                "photos/activities/activity04.jpg",
-            ],  {duration: 1000, fade: 750});
+                "photos/activities/activity04.jpg"
+            ],  {duration: 1500, fade: 750});
         });
     });
 
