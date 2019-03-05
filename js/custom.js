@@ -110,7 +110,8 @@ $(function(){
             $('#activity-photo').backstretch([
                 "photos/activities/activity01.jpg",
                 "photos/activities/activity02.jpg",
-                "photos/activities/activity03.jpg"
+                "photos/activities/activity03.jpg",
+                "photos/activities/activity04.jpg"
             ],  {duration: 1500, fade: 750});
         });
     });
