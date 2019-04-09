@@ -876,3 +876,20 @@ media quires for mobile
         font-size: 12px;
     }
 }
+
+/* ==========================================================================
+teachsers detail paper filter
+========================================================================== */
+.paper-filter a {
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+}
+.paper-filter .selected,
+.paper-filter a:focus,
+.paper-filter a:hover {
+    color: #00c6d7;
+    outline: none;
+}
