@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="images/logo/IIC.ico">
+    <meta charset="utf-8">
+    <title>IIC 实时视频监控</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="山东大学,计算机科学与技术,计算机科学与技术学院,智能计算研究所,Shandong university,computer science,computer science and technology,IIC,Institute of intelligent computing,
+									网络安全,物联网,云计算,大数据,分布式计算,分布式系统,
+									Network security, the Internet of things, cloud computing, big data, distributed computing, distributed systems">
+    <meta name="description" content="Institute of intelligent computing,山东大学计算机科学与技术学院智能计算研究所实验室主页">
+    <meta name="author" content="RockyRoll">
+    <meta name="email" content="iicofsdu@gmail.com">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
+
+<!--main section-->
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 col-sm-12 col-sm-12">
+            <h3 class="text-center">实时视频监控</h3>
+            <hr style="width: 100%">
+        </div>
+        <iframe src="http://192.168.3.44:8082"
+                height="100%"
+                width="100%"
+                frameborder="0"
+                scrolling="no"
+                seamless="seamless">
+        </iframe>
+    </div>
+    <div class="panel text-center">
+        <div class="bg-info">
+            <div id="currenttime"></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 col-sm-12 text-center">
+            <hr style="width: 100%">
+            <p>Copyright &copy; 智能计算研究所</p>
+        </div>
+    </div>
+</div>
+
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script>
+    function getDate() {
+        var date = new Date();
+        var time = date.toLocaleString();
+        $('#currenttime').html(time);
+    }
+    setInterval("getDate()", 1000);
+</script>
+
+
+</body>
+</html>
